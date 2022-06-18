@@ -6,5 +6,5 @@ import (
 
 func main() {
 	var handle = server.Init()
-	go handle.StartServer()
+	handle.StartServer()
 }
